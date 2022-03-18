@@ -1,0 +1,35 @@
+html {
+    overflow-x: hidden;
+    /*width: 100vw;*/
+}
+
+body{
+    margin: 0;
+    background-size: cover;
+    background: url("https://img5.goodfon.ru/wallpaper/nbig/2/62/by-theadamtaylor-theadamtaylor-zvezdy-space-planet-concept-a.jpg") fixed;
+}
+
+.triangle-topleft {
+    background-size: cover;
+    background: url("https://img5.goodfon.ru/wallpaper/nbig/2/62/by-theadamtaylor-theadamtaylor-zvezdy-space-planet-concept-a.jpg") repeat-y fixed;
+    width: 0;
+    height: 0;
+    border-top: 100vh solid rgba(245,245,245,0.9);
+    border-right: 55vw solid transparent;
+    z-index: 600;
+}
+
+form {
+    width: 100%;
+}
+
+.main, main {
+    margin-top: 10vh;
+    z-index: 1000;
+    /*width: 30vw;*/
+}
+
+.wrap {
+    position:absolute;
+    top:0;
+}
